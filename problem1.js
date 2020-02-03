@@ -22,6 +22,7 @@ function multiplesOf3and5(number) {
   let filteredArr = arr.filter(i => divisibleBy(3)(i) || divisibleBy(5)(i))
   // As you can see, now we can set an arbitrary number of divisors in the filter! That's cool!
   // The last step remained - to calculate the sum of all elements of the array:
+  // console.log(filteredArr)
   return filteredArr.reduce((result, num) => result + num)
 }
   

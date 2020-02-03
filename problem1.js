@@ -25,6 +25,6 @@ function multiplesOf3and5(number) {
   return filteredArr.reduce((result, num) => result + num)
 }
   
-console.log(multiplesOf3and5(49)); // return 23!
+console.log(multiplesOf3and5(10)); // return 23!
 // That's all!
 // Now we can comment out the excess console.logs.

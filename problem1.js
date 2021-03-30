@@ -13,7 +13,7 @@ function multiplesOf3and5(number) {
   // console.log(range(1, 100))
   // console.log(range(10, 20))
   // It's OK, range() is working! So, we can use it:
-  let arr = range(1, number-1) // 'number-1', because the last element of the array according to the condition of the problem must be > 1000
+  let arr = range(1, number-1)
   // In next step we must filter the array to get only members that are divisible by 3 or 5
   // To do this, we need to write a method that will filter the array.
   // But first, I suggest creating a method that allows us to dynamically determine the divisor in our filter:
